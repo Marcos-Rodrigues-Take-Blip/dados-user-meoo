@@ -1,0 +1,65 @@
+{
+  "cliente": {
+    "id": "CLI-8472910",
+    "nome": "Mariana Costa",
+    "cpf": "123.456.789-00",
+    "email": "mariana.costa@email.com",
+    "telefone": "+55 11 98765-4321"
+  },
+  "assinatura": {
+    "numero_contrato": "LZA-2026-9938",
+    "status": "ativo",
+    "duracao_meses": 12,
+    "franquia_km_mensal": 1000,
+    "valor_mensalidade": 2350.00,
+    "data_inicio": "2026-03-15",
+    "data_fim": "2027-03-15"
+  },
+  "veiculo_atual": {
+    "marca": "Jeep",
+    "modelo": "Renegade Longitude 1.3 Turbo",
+    "ano_modelo": 2026,
+    "placa": "MEO-0A26",
+    "cor": "Preto",
+    "crlv_digital_disponivel": true,
+    "carro_provisorio_ativo": false
+  },
+  "financeiro": {
+    "fatura_atual": {
+      "mes_referencia": "10/2026",
+      "vencimento": "2026-11-05",
+      "valor_total": 2350.00,
+      "status": "pendente",
+      "linha_digitavel": "34191.09008 63571.234567 89012.345678 9 12340000235000"
+    }
+  },
+  "gestao_digital": {
+    "multas": [
+      {
+        "id_infracao": "INF-5542",
+        "data_ocorrencia": "2026-09-12",
+        "descricao": "Excesso de velocidade (até 20%)",
+        "valor": 130.16,
+        "status": "aguardando_pagamento"
+      }
+    ],
+    "manutencao": {
+      "revisao_pendente": true,
+      "proxima_revisao_km": 10000,
+      "agendamento": {
+        "status": "confirmado",
+        "data_hora": "2026-10-30T14:00:00-03:00",
+        "oficina": "Localiza Serviços - Unidade Pinheiros",
+        "carro_reserva_solicitado": true
+      }
+    }
+  },
+  "clube_beneficios": {
+    "status": "ativo",
+    "pontos_acumulados": 8500,
+    "programas_parceiros_conectados": [
+      "Azul Fidelidade",
+      "KM de Vantagens"
+    ]
+  }
+}
